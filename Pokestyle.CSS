@@ -1,0 +1,46 @@
+body{
+    background-image:url("pokedex.jpg");
+    background-repeat: no-repeat;
+    background-size: 1250px;
+
+}
+
+.poke_img{
+    position: static;
+    float: left;
+    margin-top: 270px;
+    margin-left: -140px;
+}
+
+.pokeSearch{
+    position: static;
+    float: left;
+    margin-top: 670px;
+    margin-left: 150px;
+}
+.pokeSearch text{
+    padding: 10px;
+}
+
+.Tipo{
+    position: static;
+    float: left;
+    margin-top: 280px;
+    margin-left: 320px;
+    font-size: medium;
+}
+
+.green-screen {
+    width: 405px;
+    height: 200px;
+    border-radius: 5px;
+    border: solid black 2px;
+    background-color: #3ab47d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    float: left;
+    margin-top: 270px;
+    margin-left: 740px;
+}

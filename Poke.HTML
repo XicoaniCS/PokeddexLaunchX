@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeLanchX</title>
+    <link rel="stylesheet" href="Pokestyle.CSS">
+
+</head>
+
+<body>
+    <div class="pokeSearch">
+        <input type="text" placeholder="Nombre del Pokemon" id="Pokename" name="Pokename"><br><br>
+        <button onclick="fetchPokemon()">Buscar</button>
+    </div>
+
+    <div class="card-body" class="row">
+        <div class="green-screen">
+            <span id="name-screen" style="font-size: 25px;"></span>
+        </div>
+    </div>
+
+    <div class="nombre">
+        <div id = "pokeId" class="id-screen">Id:</div>
+        <div id = "pokeNombre">
+    </div>
+
+    <div class="poke_img">
+        <img src="./Pokeball.png" alt="Pokemon" id="PokeImg" width="250px" height=""><br>
+    </div>
+
+    <div class="Tipo">
+        <div id = "pokeClass" src="algo">Tipo: </div>
+    </div>
+
+    <div class="Data_Top">
+        <div id = "pokeHP">HP base:</div>
+        <div id = "attack">Ataque:</div>
+        <div id = "defense">Defensa:</div>
+        <div id = "specialAttack">Ataque especial:</div>
+        <div id = "specialDefense">Defensa especial:</div>
+        <div id = "speed">Velocidad</div>
+    </div>
+
+    <div class="Data_Down">
+        <div id = "pokeMove1">Mov 1:</div>
+        <div id = "pokeMove2">Mov 2:</div>
+        <div id = "pokeMove3">Mov 3:</div>
+        <div id = "pokeMove4">Mov 4:</div>
+    </div>
+
+    <div class="altura">
+        <div id = "height">Altura:</div>
+    </div>
+
+    <div class="peso">
+        <div id = "weight">Peso:</div>
+    </div>
+
+</body>
+
+<footer>
+    <script src="Pokedex.JS"></script>
+</footer>
+
+</html>
